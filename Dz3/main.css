@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  .review-list {
+    list-style: none;
+    padding: 0;
+  }
+  .review-item {
+    margin-bottom: 10px;
+  }
+  .delete-btn {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+  }

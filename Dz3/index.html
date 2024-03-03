@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/Dz3/main.js"></script>
+    <link rel="stylesheet" href="/Dz3/main.css" />
+  </head>
+  <body>
+    <h1>Отзывы о продуктах</h1>
+
+    <form id="review-form">
+      <label for="product-name">Название продукта:</label>
+      <input type="text" id="product-name" required /><br />
+      <label for="review-text">Отзыв:</label><br />
+      <textarea id="review-text" rows="4" required></textarea><br />
+      <button type="submit">Добавить отзыв</button>
+    </form>
+
+    <hr />
+
+    <h2>Список продуктов:</h2>
+    <ul id="product-list" class="product-list"></ul>
+
+    <div id="modal" style="display: none">
+      <h2 id="modal-title"></h2>
+      <ul id="modal-review-list" class="review-list"></ul>
+    </div>
+  </body>
+</html>
